@@ -18,12 +18,6 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "@types/electron": "^1.6.10",
-        "@types/lodash": "^4.14.157",
-        "@types/node": "^12.0.2",
-        "@types/react": "^17.0.0",
-        "@types/react-dom": "^16.9.1",
-        "@types/react-router-dom": "^5.1.5",
         "axios": "^0.21.1",
         "azure-iot-common": "^1.12.6",
         "azure-iot-device": "^1.17.2",
@@ -47,10 +41,9 @@
         "markdown-loader": "^6.0.0",
         "mini-css-extract-plugin": "^0.6.0",
         "morgan": "^1.9.1",
-        "node-sass": "^4.12.0",
         "qrcode-reader": "^1.0.4",
         "random-location": "^1.1.2",
-        "random-words": "^1.1.0",
+        "random-words": "^1.1.1",
         "react": "^16.0.0",
         "react-dom": "^16.0.0",
         "react-markdown": "^4.3.1",
@@ -58,15 +51,22 @@
         "react-spinners": "^0.9.0",
         "react-splitter-layout": "^4.0.0",
         "react-toggle": "^4.1.1",
-        "sass-loader": "^7.1.0",
-        "ts-loader": "^6.2.0",
-        "typescript": "^3.6.4",
-        "uuid": "^3.3.2",
-        "webpack": "^4.32.2",
-        "webpack-cli": "^3.3.2"
+        "request": "^2.88.2",
+        "uuid": "^3.3.2"
     },
     "devDependencies": {
+        "@types/lodash": "^4.14.157",
+        "@types/node": "^12.0.2",
+        "@types/react": "^16.0.0",
+        "@types/react-dom": "^16.0.0",
+        "@types/react-router-dom": "^5.1.5",
         "browserify": "^17.0.0",
-        "terser": "^5.16.3"
+        "node-sass": "^8.0.0",
+        "sass-loader": "^7.1.0",
+        "terser": "^5.16.3",
+        "ts-loader": "^6.2.0",
+        "typescript": "^4.9.5",
+        "webpack": "^4.32.2",
+        "webpack-cli": "^3.3.2"
     }
 }
